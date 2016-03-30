@@ -1,0 +1,18 @@
+{
+  "name": "image-api-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "build": "node ./scripts/build_image_data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wsb/d3api": "^0.7.3",
+    "async": "^2.0.0-rc.1",
+    "request": "^2.69.0"
+  }
+}

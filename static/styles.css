@@ -1,0 +1,77 @@
+#menu {
+    display:none;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    height:40px;
+    background:silver;
+}
+
+#main {
+    position:absolute;
+    background-color:#333;
+    top:0px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+#original {
+    position:absolute;
+    left:0;
+    top:0;
+    width:50%;
+    height:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#withVision {
+    position:absolute;
+    left:50%;
+    top:0;
+    width:50%;
+    height:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#cropResize {
+    position:absolute;
+    left:0;
+    top:50%;
+    width:50%;
+    height:50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#smartView {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:50%;
+    height:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#hiddenView {
+    display:none;
+}
+
+#smartView.fullScreen,
+#withVision.fullScreen {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+}
