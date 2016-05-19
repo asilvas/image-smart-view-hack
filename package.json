@@ -13,6 +13,8 @@
   "dependencies": {
     "@wsb/d3api": "^0.7.3",
     "async": "^2.0.0-rc.1",
-    "request": "^2.69.0"
+    "express": "^4.13.4",
+    "opencv": "^5.0.0",
+    "request": "^2.72.0"
   }
 }
